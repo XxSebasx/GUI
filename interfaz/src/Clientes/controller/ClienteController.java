@@ -13,6 +13,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 
 public class ClienteController implements Initializable {
     private ClienteDao clienteDao;
@@ -49,7 +50,19 @@ public class ClienteController implements Initializable {
 
     @FXML
     void insertar(ActionEvent event) {
+        Cliente cliente = new Cliente(Integer.parseInt(id.getText()), nombre.getText(), apellido.getText(), pais.getText());
+        clienteDao.aniadirCliente(cliente);
+        listaClientes.getItems().add(cliente);
 
+    }
+
+    @FXML
+    void mostrar(MouseEvent event) {
+        Cliente cliente = listaClientes.getSelectionModel().getSelectedItem();
+        mostrarId.setText(String.valueOf(cliente.getId()));
+        mostrarNombre.setText(cliente.getNombre());
+        mostrarApellido.setText(cliente.getApellido());
+        mostrarPais.setText(cliente.getPais());
     }
 
     @Override

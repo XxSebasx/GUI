@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Clientes.controller.ClienteController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Clientes.controller.ClienteController">
    <children>
       <TextField fx:id="nombre" layoutX="126.0" layoutY="62.0" prefHeight="35.0" prefWidth="139.0" />
       <TextField fx:id="apellido" layoutX="126.0" layoutY="109.0" prefHeight="35.0" prefWidth="139.0" />
@@ -35,7 +34,7 @@
             <Font size="19.0" />
          </font>
       </Label>
-      <ListView fx:id="listaClientes" layoutX="334.0" layoutY="72.0" prefHeight="487.0" prefWidth="258.0" />
+      <ListView fx:id="listaClientes" layoutX="334.0" layoutY="72.0" onMouseClicked="#mostrar" prefHeight="487.0" prefWidth="258.0" />
       <TitledPane animated="false" layoutX="14.0" layoutY="258.0" prefHeight="285.0" prefWidth="293.0" text="untitled">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
