@@ -1,0 +1,6 @@
+
+1;Sebastian;Garcia;Espania
+2;Daniel;Garcia;Espania
+3;Manuel;Gonzalez;Mexico
+6;Juan;Garcia;Chile
+7;Alfredo;Gonzales;Venezuela
