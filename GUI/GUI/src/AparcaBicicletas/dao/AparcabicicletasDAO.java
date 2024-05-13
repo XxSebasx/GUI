@@ -25,7 +25,6 @@ public class AparcabicicletasDAO {
                 double x = Double.parseDouble(partes[0]);
                 double y = Double.parseDouble(partes[1]);
                 int id = Integer.parseInt(partes[2]);
-
                 int aros = Integer.parseInt(partes[4]);
                 boolean instalado = true;
                 if (partes[5].equals("NO")) {
