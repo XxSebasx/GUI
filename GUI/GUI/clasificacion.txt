@@ -1,0 +1,16 @@
+Alejandro Bernal;Gryffindor
+Nuria Castro;Slytherin
+Sebastian Garcia;Hufflepuff
+Daniel M. Hermoso;Slytherin
+Mario Lobato;Hufflepuff
+Lidia Lopez;Slytherin
+Francisco Marchena;Ravenclaw
+Casandra Marin;Gryffindor
+Jose C. Perez;Ravenclaw
+Alejandro Perinan;Gryffindor
+Francisco J. Redondo;Ravenclaw
+Triana Rey;Slytherin
+Ignacio Serrano;Ravenclaw
+Samuel Urbina;Hufflepuff
+David Velasco;Ravenclaw
+Candela Villena;Hufflepuff

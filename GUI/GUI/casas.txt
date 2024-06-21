@@ -1,0 +1,4 @@
+Gryffindor;rojo;Godric Gryffindor;Conocido por su coraje, valentía y caballerosidad.
+Hufflepuff;amarillo;Helga Hufflepuff;Conocido por su lealtad, trabajo duro, juego limpio, y tolerancia.
+Ravenclaw;azul;Rowena Ravenclaw;Valora la inteligencia, el ingenio, la creatividad y la sabiduría.
+Slytherin;verde;Salazar Slytherin;Valora la ambición, el liderazgo, la astucia y el ingenio.

@@ -1,0 +1,15 @@
+C:base
+entrada:La base de datos se ha cerrado debido a un error de e/s;E;2024;5;10;20;30;06
+entrada:Informe del registro de la base de datos de entradas se ha generado;I;2024;05;10;20;30;06
+entrada:Error en el adaptador, no puede establecer la conexion a la base de datos;E;2024;05;10;20;26;15
+entrada:Se ha iniciado el servicio de Defender;I;2024;05;10;20;01;01
+I:mejores precios;ultimos dias
+entrada:Ultimos dias con descuento;S;2024;05;12;20;35;10
+entrada:Code-Resumen semanal;S;2024;05;12;20;26;15
+C:notificaciones;proteccion
+entrada:El servicio de proteccion de software se programo correctamente;I;2024;05;12;20;35;10
+entrada:El suscriptor de notificaciones no esta disponible;A;2024;05;12;20;18;10
+I:tu propio jefe;ingresos extra
+entrada:Ingresos extra desde la comodidad de tu hogar;S;2024;04;10;20;18;10
+entrada:Metodos para ser tu propio jefe y lograr ingresos extra;S;2024;04;10;20;18;10
+entrada:BOE-Alertas de personal;S;2024;04;10;20;30;10

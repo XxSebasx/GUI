@@ -1,0 +1,10 @@
+manuela:nico
+marco:nico
+amalia:lucia
+antonia:lucia
+maria:nico
+ana:lucia;sara
+lucia:nico;ana;amalia;antonia
+pepa:sara;nico
+sara:pepa;ana;nico
+nico:manuela;marco;maria;lucia;sara;pepa

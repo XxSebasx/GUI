@@ -1,0 +1,6 @@
+Libro;Java Programming II;Anis;Koubaa;Basit;Qurashi;2014;12;1;I;1457895242;Addison Wesley;380;Enfoque paso a paso y con ejemplos usando Java.
+Libro;Java: The Complete Reference;Herbert;Schildt;2021;12;1;I;1260463419;McGraw Hill;245;Guía práctica de Java SE 17. 
+Libro;Principios de biologia molecular;Adriana Maria;Salazar Montes;2016;7;15;S;6071513669;McGraw Hill;400;Fundamentos en ciencias de la salud.
+Libro;Modern Java in Action;Gabriel;Urma;Mario;Fusco;Alan;Mycroft;2018;12;12;I;1617293563;Manning;250;Lambdas, streams, programación funcional y reactiva.
+Libro;Robot Operating System;Anis;Koubaa;2023;2;1;I;3031090615;Springer;382;Cobertura exhaustiva de los sistemas operativos para robots y de las últimas. tendencias.
+Libro;Introducing JavaFX 8 Programming;Herbert;Schildt;2015;7;10;I;0071842556;McGraw Hill;406;Visión general de las facetas clave de la programación JavaFX 8.
