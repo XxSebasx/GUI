@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="646.0" prefWidth="1064.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bitacoras.controller.BitacorasController">
+   <children>
+      <Label layoutX="39.0" layoutY="44.0" text="Fichero de datos">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombreFichero" layoutX="185.0" layoutY="42.0" />
+      <Button fx:id="btnCargarDatos" layoutX="382.0" layoutY="42.0" mnemonicParsing="false" onMouseClicked="#cargarDatos" prefHeight="24.0" prefWidth="126.0" text="Cargar Datos" />
+      <Label fx:id="textEstado" layoutX="563.0" layoutY="46.0" text="Estado:" />
+      <ListView fx:id="listaBitacoras" layoutX="32.0" layoutY="139.0" onMouseClicked="#mostrarSeleccion" prefHeight="455.0" prefWidth="381.0" />
+      <Label layoutX="39.0" layoutY="110.0" text="Bitacoras" />
+      <ListView fx:id="listaEntradas" layoutX="431.0" layoutY="139.0" prefHeight="301.0" prefWidth="616.0" />
+      <Label layoutX="431.0" layoutY="110.0" text="Entradas" />
+      <Label layoutX="431.0" layoutY="461.0" text="Spam" />
+      <ListView fx:id="listaSpam" layoutX="431.0" layoutY="488.0" prefHeight="109.0" prefWidth="616.0" />
+      <Label fx:id="textoPorcentaje" layoutX="489.0" layoutY="461.0" text="Porcentaje" />
+      <TextField fx:id="cadena" layoutX="588.0" layoutY="110.0" />
+      <Label layoutX="588.0" layoutY="85.0" text="Cadena:" />
+      <Label layoutX="776.0" layoutY="86.0" text="Categoria:" />
+      <ComboBox fx:id="categorias" layoutX="776.0" layoutY="106.0" prefHeight="24.0" prefWidth="147.0" promptText="ninguna" />
+      <Button fx:id="btnBuscar" layoutX="961.0" layoutY="106.0" mnemonicParsing="false" onMouseClicked="#buscar" text="Buscar" />
+   </children>
+</AnchorPane>
