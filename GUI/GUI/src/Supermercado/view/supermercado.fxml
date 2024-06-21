@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Supermercado.controller.SupermercadoController">
+   <children>
+      <ListView fx:id="listaClientes" layoutX="381.0" layoutY="16.0" onMouseClicked="#mostrarTarjeta" prefHeight="497.0" prefWidth="382.0" />
+      <Label layoutX="20.0" layoutY="16.0" text="Añadir cliente" />
+      <TextField fx:id="nombre" layoutX="100.0" layoutY="47.0" />
+      <TextField fx:id="tarjeta" layoutX="100.0" layoutY="86.0" />
+      <TextField fx:id="porcentaje" layoutX="100.0" layoutY="127.0" />
+      <Label layoutX="27.0" layoutY="47.0" prefHeight="17.0" prefWidth="73.0" text="Nombre">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="86.0" prefHeight="17.0" prefWidth="73.0" text="Tarjeta">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="127.0" prefHeight="26.0" prefWidth="87.0" text="Porcentaje">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAñadir" layoutX="272.0" layoutY="75.0" mnemonicParsing="false" onAction="#aniadir" prefHeight="49.0" prefWidth="87.0" text="Añadir">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Separator layoutY="203.0" prefHeight="10.0" prefWidth="382.0" />
+      <Label layoutX="13.0" layoutY="179.0" text="Añadir saldo" />
+      <TextField fx:id="tarjetaSaldo" editable="false" layoutX="93.0" layoutY="225.0" prefHeight="25.0" prefWidth="186.0" />
+      <Label layoutX="20.0" layoutY="225.0" prefHeight="17.0" prefWidth="73.0" text="Tarjeta">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="compra" layoutX="93.0" layoutY="265.0" prefHeight="25.0" prefWidth="186.0" />
+      <Label layoutX="20.0" layoutY="265.0" prefHeight="17.0" prefWidth="73.0" text="Compra">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAniadirSaldo" layoutX="27.0" layoutY="318.0" mnemonicParsing="false" onMouseClicked="#aniadirSaldo" prefHeight="30.0" prefWidth="106.0" text="Añadir saldo">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="saldo" editable="false" layoutX="249.0" layoutY="314.0" prefHeight="30.0" prefWidth="115.0" />
+      <Label layoutX="184.0" layoutY="320.0" prefHeight="17.0" prefWidth="73.0" text="Saldo">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Separator layoutY="399.0" prefHeight="10.0" prefWidth="382.0" />
+      <Label layoutX="13.0" layoutY="375.0" text="Otras opciones" />
+      <TextField fx:id="saldoEmpleados" layoutX="161.0" layoutY="432.0" prefHeight="30.0" prefWidth="176.0" />
+      <Label layoutX="10.0" layoutY="432.0" prefHeight="26.0" prefWidth="140.0" text="Saldo empleados">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnMostrar" layoutX="109.0" layoutY="479.0" mnemonicParsing="false" onMouseClicked="#mostrarSaldoEmpleados" prefHeight="30.0" prefWidth="131.0" text="Mostrar">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

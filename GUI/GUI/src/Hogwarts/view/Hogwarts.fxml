@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="1070.0" style="-fx-background-color: #2f4f4f;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hogwarts.controller.HogwartsController">
+   <children>
+      <ImageView fitHeight="171.0" fitWidth="284.0" layoutX="-8.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../Logo-Hogwarts.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="243.0" layoutY="39.0" text="HOGWARTS" textFill="WHITE">
+         <font>
+            <Font size="61.0" />
+         </font>
+      </Label>
+      <TitledPane expanded="false" layoutX="42.0" layoutY="218.0" prefHeight="233.0" prefWidth="201.0" text="Gryffindor">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="194.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="listaGriffindor" layoutX="-2.0" onMouseClicked="#mostrarEstudiante" prefHeight="212.0" prefWidth="208.0" style="-fx-background-color: #b22222;" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <TitledPane expanded="false" layoutX="539.0" layoutY="218.0" prefHeight="233.0" prefWidth="201.0" text="Hufflepuff">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="194.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="listaHufflepuff" layoutX="-1.0" layoutY="-1.0" onMouseClicked="#mostrarEstudiante" prefHeight="210.0" prefWidth="201.0" style="-fx-background-color: #daa520;" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+      <TitledPane expanded="false" layoutX="788.0" layoutY="218.0" prefHeight="233.0" prefWidth="201.0" text="Ravenclaw">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="194.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="listaRavenclaw" layoutX="-2.0" prefHeight="212.0" prefWidth="208.0" style="-fx-background-color: #191970;" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+      <Label layoutX="42.0" layoutY="485.0" text="Estudiante" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="533.0" text="Nombre:" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="574.0" text="Rango:" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="623.0" text="Edad:" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombre" layoutX="148.0" layoutY="536.0" />
+      <RadioButton fx:id="muggle" layoutX="143.0" layoutY="581.0" mnemonicParsing="false" text="Muggle" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="mago" layoutX="243.0" layoutY="581.0" mnemonicParsing="false" text="Mago" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <Slider fx:id="slider" blockIncrement="1.0" layoutX="124.0" layoutY="625.0" majorTickUnit="1.0" max="30.0" min="18.0" minorTickCount="1" prefHeight="48.0" prefWidth="208.0" showTickLabels="true" showTickMarks="true" />
+      <Button fx:id="btactualizar" layoutX="436.0" layoutY="530.0" mnemonicParsing="false" onMouseClicked="#actualizar" prefHeight="89.0" prefWidth="453.0" text="ACTUALIZAR" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Button>
+      <Label layoutX="249.0" layoutY="122.0" text="Escuela de Magia y Hechicería" textFill="#d3caca">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TitledPane expanded="false" layoutX="284.0" layoutY="218.0" prefHeight="233.0" prefWidth="201.0" text="Slytherin">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="194.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="listaSlytherin" layoutX="-1.0" layoutY="-1.0" onMouseClicked="#mostrarEstudiante" prefHeight="210.0" prefWidth="201.0" style="-fx-background-color: #556b2f;" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+   </children>
+</AnchorPane>

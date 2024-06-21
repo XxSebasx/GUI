@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="208.0" prefWidth="537.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+   <children>
+      <Button fx:id="btn1" layoutX="6.0" layoutY="8.0" mnemonicParsing="false" onAction="#pulsarbtn1" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="109.0" layoutY="8.0" mnemonicParsing="false" onAction="#pulsarbtn2" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="214.0" layoutY="8.0" mnemonicParsing="false" onAction="#pulsarbtn3" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="322.0" layoutY="8.0" mnemonicParsing="false" onAction="#pulsarbtn4" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="432.0" layoutY="8.0" mnemonicParsing="false" onAction="#pulsarbtn5" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" layoutX="6.0" layoutY="56.0" mnemonicParsing="false" onAction="#pulsarbtn6" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn7" layoutX="109.0" layoutY="56.0" mnemonicParsing="false" onAction="#pulsarbtn7" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" layoutX="214.0" layoutY="56.0" mnemonicParsing="false" onAction="#pulsarbtn8" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" layoutX="322.0" layoutY="56.0" mnemonicParsing="false" onAction="#pulsarbtn9" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn0" layoutX="432.0" layoutY="56.0" mnemonicParsing="false" onAction="#pulsarbtn0" prefHeight="19.0" prefWidth="96.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLimpiar" layoutX="54.0" layoutY="107.0" mnemonicParsing="false" onAction="#limpiar" prefHeight="35.0" prefWidth="85.0" text="CLEAR">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEnter" layoutX="383.0" layoutY="107.0" mnemonicParsing="false" onAction="#startApp" prefHeight="35.0" prefWidth="85.0" text="Enter">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="btnContrasenia" layoutX="145.0" layoutY="107.0" prefHeight="35.0" prefWidth="234.0" />
+      <Text fx:id="texto" fill="#4e7eb2" layoutX="131.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="247.03125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

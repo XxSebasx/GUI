@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="357.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Calculadora.CalculadoraController">
+   <children>
+      <Text layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Number" wrappingWidth="128.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="4.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Second Number" wrappingWidth="147.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="4.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result" wrappingWidth="147.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="primerNumero" alignment="BASELINE_RIGHT" layoutX="162.0" layoutY="17.0" prefHeight="35.0" prefWidth="176.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="segundoNumero" alignment="BASELINE_RIGHT" layoutX="162.0" layoutY="65.0" prefHeight="35.0" prefWidth="176.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="resulltado" alignment="BASELINE_RIGHT" depthTest="DISABLE" editable="false" layoutX="162.0" layoutY="111.0" pickOnBounds="false" prefHeight="35.0" prefWidth="176.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="suma" layoutX="4.0" layoutY="153.0" mnemonicParsing="false" onAction="#sumar" prefHeight="35.0" prefWidth="164.0" style="-fx-background-color: #ADD8E6;" text="+">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="resta" layoutX="180.0" layoutY="153.0" mnemonicParsing="false" onAction="#restar" prefHeight="35.0" prefWidth="164.0" style="-fx-background-color: #ADD8E6;" text="-">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="multiplicacion" layoutX="4.0" layoutY="197.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="35.0" prefWidth="164.0" style="-fx-background-color: #ADD8E6;" text="*">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="division" layoutX="180.0" layoutY="197.0" mnemonicParsing="false" onAction="#dividir" prefHeight="35.0" prefWidth="164.0" style="-fx-background-color: #ADD8E6;" text="/">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="porcentaje" layoutX="4.0" layoutY="241.0" mnemonicParsing="false" onAction="#CalcularPorcentaje" prefHeight="35.0" prefWidth="164.0" style="-fx-background-color: #ADD8E6;" text="\%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="botonLimpiar" layoutX="180.0" layoutY="241.0" mnemonicParsing="false" onAction="#Limpiar" prefHeight="35.0" prefWidth="164.0" style="-fx-background-color: #ADD8E6;" text="CLEAR">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

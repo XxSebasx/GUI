@@ -4,7 +4,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
-import Clientes.dao.ClienteDAO;
+import Clientes.dao.ClienteDao;
 import Clientes.model.Cliente;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -16,7 +16,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
 public class ClienteController implements Initializable {
-    private ClienteDAO clienteDao;
+    private ClienteDao clienteDao;
 
     @FXML
     private TextField apellido;
@@ -50,8 +50,7 @@ public class ClienteController implements Initializable {
 
     @FXML
     void insertar(ActionEvent event) {
-        Cliente cliente = new Cliente(Integer.parseInt(id.getText()), nombre.getText(), apellido.getText(),
-                pais.getText());
+        Cliente cliente = new Cliente(Integer.parseInt(id.getText()), nombre.getText(), apellido.getText(), pais.getText());
         clienteDao.aniadirCliente(cliente);
         listaClientes.getItems().add(cliente);
 
@@ -68,7 +67,7 @@ public class ClienteController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        clienteDao = new ClienteDAO();
+        clienteDao = new ClienteDao();
         List<Cliente> clientes = clienteDao.getClientes();
         listaClientes.getItems().addAll(clientes);
     }
